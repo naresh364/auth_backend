@@ -1,0 +1,17 @@
+{
+  "db" : {
+    "user" : "root",
+    "pass" : "root",
+    "host": "127.0.0.1:3306",
+    "db" : "test_auth_db"
+  },
+  "db_setup_file" : "init.sql",
+  "env" : "test",
+  "redis" : {
+    "addr" : "localhost:6379",
+    "password" : "",
+    "db" : 0
+  },
+  "org_col" : "org_id",
+  "owner_col" : "auth_user_id"
+}

@@ -1,0 +1,20 @@
+{
+  "db" : {
+    "user" : "root",
+    "pass" : "root",
+    "host": "127.0.0.1:3306",
+    "db" : "quiz_db"
+  },
+  "log" : "./info.log",
+  "env" : "dev",
+  "redis" : {
+    "addr" : "localhost:6379",
+    "password" : "",
+    "db" : 0
+  },
+  "port" : 3030,
+  "org_col" : "org_id",
+  "owner_col" : "auth_user_id",
+  "sudo" : 1,
+  "sudo_org" : 1
+}
